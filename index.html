@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr-en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Pierre Feuille Ciseaux</title>
+</head>
+
+<body>
+    <header>
+        <img class="shifumi" src="img/shifumi.svg" alt="shifumi">
+    </header>
+    <section class="parent">
+        <div class="div1">
+            <div class="pierre">
+                <button><img class="objet-jeu" src="img/pierre.png" alt="pierre">
+            </div>
+            <div class="feuille">
+                <button><img class="objet-jeu" src="img/feuille.png" alt="feuille">
+            </div>
+            <div class="ciseaux">
+                <button><img class="objet-jeu" src="img/ciseaux.png" alt="ciseaux">
+            </div>
+        </div>
+        <div class="affichage-score">
+            <div class="score">Victoire : <em id="vict"></em></div>
+            <div class="score">Défaite : <em id="def"></em></div>
+            <div class="score">Egalité : <em id="draw"></em></div>
+            <h4 class="score">Historique</h4>
+            <div class="score"> Victoire : <em id="hist_vict"></em></div>
+            <div class="score">Défaite : <em id="hist_def"></em></div>
+            <div class="score">Egalité : <em id="hist_draw"></em></div>
+            <div><button class="btn_reset" id="btn_reset">Réinitialiser</button></div>
+        </div>
+    </section>
+    <footer>
+        <p>Mentions légales</p>
+        <p>©</p>
+        <p>2022</p>
+    </footer>
+    <script src="js/shifumi.js">
+    </script>
+</body>
+</html>
